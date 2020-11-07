@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "segonaweb"
+    }
+  },
+  "defaultProject": "segonaweb",
+  "cli": {
+    "analytics": "2766d2fc-13f5-41c1-a7a0-dbefeff74653"
+  }
 }

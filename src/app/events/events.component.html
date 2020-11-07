@@ -2,29 +2,25 @@
 
 
 <label class="radio">
- <button type="button" class="btn btn-success" value="anadir" (click)="accion(anadir)">Añadir</button>
+<input class="btn btn-primary" type="button" ng-model="add"  ng-init="add=true" value="alta evento"> 
 </label>
 <button type="button" class="btn btn-primary" style="margin-left:50px" value="modificar">Modificar</button>
 <button type="button" class="btn btn-danger" style="margin-left:100px" value="eliminar" >Eliminar</button><br><br>
 
-<div class="container" *ngIf="container === 'anadir'">
+<span  ng-if="add" class="animate-if">
+  
 
-<p>yfghvg</p>
-<form action="">
-<div>
-
-     Nombre del evento: <input type="text" required><br> <br>
-     Localización: <input type="text" required><br><br>
-     Correo de contacto: <input type="email" required><br><br>
-     Fecha del evento: <input type="date" required><br><br>
-     Descripcion del evento: <input type="text area" required><br><br>
-     <input type="submit" value="Crear">
-
-
+  <form action="">
+    <div>
+      Nombre del evento: <input type="text" required><br> <br>
+      Localización: <input type="text" required><br><br>
+      Correo de contacto: <input type="email" required><br><br>
+      Fecha del evento: <input type="date" required><br><br>
+      Descripcion del evento: <input type="text area" required><br><br>
+      <input type="submit" value="Crear">
     </div>
-
   </form>
-</div>
+</span>
 
 
 </html>
