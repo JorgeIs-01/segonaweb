@@ -7,6 +7,7 @@ import { IniciComponent } from './inici/inici.component';
 import { EventsComponent } from './events/events.component';
 import { AltaeventsComponent } from './altaevents/altaevents.component';
 import { ModificareventComponent } from './modificarevent/modificarevent.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ModificareventComponent } from './modificarevent/modificarevent.compone
     IniciComponent,
     EventsComponent,
     AltaeventsComponent,
-    ModificareventComponent
+    ModificareventComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

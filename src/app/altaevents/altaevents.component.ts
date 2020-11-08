@@ -16,13 +16,5 @@ export class AltaeventsComponent implements OnInit {
   }
 
 }
-export class Events2 {
-  name: string;
-  capital: string;
-  area: number;
-  population: number;
-  currency: string;
-  gdp: number;
-}
 
 

@@ -1,26 +1,22 @@
-<html style="margin-left: 20px;">
-
-
-<label class="radio">
-<input class="btn btn-primary" type="button" ng-model="add"  ng-init="add=true" value="alta evento"> 
-</label>
-<button type="button" class="btn btn-primary" style="margin-left:50px" value="modificar">Modificar</button>
-<button type="button" class="btn btn-danger" style="margin-left:100px" value="eliminar" >Eliminar</button><br><br>
-
-<span  ng-if="add" class="animate-if">
-  
-
-  <form action="">
-    <div>
-      Nombre del evento: <input type="text" required><br> <br>
-      Localización: <input type="text" required><br><br>
-      Correo de contacto: <input type="email" required><br><br>
-      Fecha del evento: <input type="date" required><br><br>
-      Descripcion del evento: <input type="text area" required><br><br>
-      <input type="submit" value="Crear">
-    </div>
-  </form>
-</span>
-
-
-</html>
+<div class="row">
+  <div class="col">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Evento</th>
+          <th> Ubicacion</th>
+          <th> Fecha</th>
+          <th> Descripcion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Visita Catedral</td>
+          <td>Barcelona</td>
+          <td>01/05/2021</td>
+          <td>ta guapo</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
