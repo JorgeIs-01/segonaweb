@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Input} from '@angular/core';
+import { eventos } from '../models/model';
 
 
 
@@ -9,8 +10,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventsComponent implements OnInit {
 
-
-
+@Input() altaevento:eventos;
+  btnClick= function () {
+    this.router.navigateByUrl('/modificar');
+};
 
 
   constructor() { }

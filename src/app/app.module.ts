@@ -8,6 +8,8 @@ import { EventsComponent } from './events/events.component';
 import { AltaeventsComponent } from './altaevents/altaevents.component';
 import { ModificareventComponent } from './modificarevent/modificarevent.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { HeaderComponent } from './header/header.component';
     EventsComponent,
     AltaeventsComponent,
     ModificareventComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

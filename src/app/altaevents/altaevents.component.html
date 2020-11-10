@@ -1,19 +1,24 @@
-<form style="margin-left: 40px;" > <br><br>
+
+<form id="margin"  > <br><br>
+  <h1>Nuevo evento</h1>
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="First name" size="30px"required>
+      <input type="text" class="form-control"  #vevento placeholder="Nombre evento" size="30px"required>
     </div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="Last name" required>
+      <input type="text" class="form-control" #vubicacion placeholder="Ubicacion" required>
     </div>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"required>
+    <input type="email" class="form-control" #vemail id="exampleFormControlInput1" placeholder="name@example.com"required>
   </div>
 
   <div class="form-group">
     <label for="exampleFormControlTextarea1" style="size: 30px;">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" #vtext id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div>
+    <!-- <input type="button" (click)="EnviarDatos(vevento.value, vubicacion.value, vemail.value, vtext.value)" value="Enviar"> -->
   </div>
 </form>
